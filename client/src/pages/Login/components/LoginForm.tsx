@@ -10,7 +10,8 @@ import { useImmer } from "use-immer";
 import axios from "axios";
 
 const LoginForm = () => {
-  const baseUrl = "https://port-0-tripmatch-server-1b5xkk2fldcwfwsm.gksl2.cloudtype.app";
+  const baseUrl =
+    "https://port-0-tripmatch-server-1b5xkk2fldcwfwsm.gksl2.cloudtype.app";
   // const loginUrl = `${baseUrl}/main/auth/login`;
   const navigate = useNavigate();
 
