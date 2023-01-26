@@ -8,6 +8,7 @@ info:
 servers:
   - url: http://localhost:3003/api
   - url: http://34.64.156.80:3003/api
+  - url: https://port-0-tripmatch-server-1b5xkk2fldcwfwsm.gksl2.cloudtype.app/api
 paths:
   /main/auth/email:
     $ref: "./auth.yaml#/~1auth~1email"
